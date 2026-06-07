@@ -1,0 +1,132 @@
+/* Global */
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Sections */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #111;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.hero button {
+    background: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cars {
+    padding: 40px;
+    text-align: center;
+}
+
+.cars h2 {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+    margin-top: 40px;
+}
+
+
+/* Components */
+.card {
+    width: 300px;
+    background: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 50px auto;
+    transition: 0.3s;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.9);;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+}
+
+.card button {
+    width: 100%;
+    background: linear-gradient(45deg, #00aaff, #0077ff);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Specific */
+.specs {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+/* States */
+.card:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.9);
+}
+
+.card button:hover {
+    opacity: 0.9;
+}
