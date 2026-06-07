@@ -13,7 +13,7 @@ A modern car showcase website built using HTML and CSS featuring responsive card
 - CSS3 (Flexbox)
 
 ## 📸 Preview
-(Add screenshot here later)
+(Will Add screenshot here later)
 
 ## 🌐 Live Demo
 https://ishayubuilds.github.io/car-showcase-website/
